@@ -15,3 +15,18 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+/*
+ // abrir pagina detalle
+
+document.addEventListener('DOMContentLoaded', function() {
+  const productoElement = document.getElementById('producto');
+  if (productoElement) {
+    productoElement.addEventListener('click', () => {
+      window.location.href = '../pages/sproduct.html';
+    });
+  }
+}); 
+*/
+
+//mostrar otras alternativas del mismo producto

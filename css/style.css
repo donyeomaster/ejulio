@@ -378,6 +378,7 @@ footer .copyright{
 
 
 
+
 /* Shop page */
 #page-header {
   background-image: url("../img/banner/b1.jpg");
@@ -409,6 +410,7 @@ footer .copyright{
   font-weight: 600;
 
 }
+
 
 
 
@@ -467,6 +469,130 @@ footer .copyright{
 #prodetails .single-pro-details span{
   line-height: 25px;
 }
+
+
+
+
+/* Contacto */
+#contact-details{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly
+}
+
+#contact-details .details{
+  width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+  font-size: 12px;
+
+}
+
+#contact-details .details h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+  
+}
+
+#contact-details .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .details li i{
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contact-details .details li p{
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact-details .map{
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details h2{
+  font-size: 30px;
+}
+
+#form-details form button {
+  background-color: #0476c2;
+  color: white;
+}
+
+#form-details .people{
+  margin-top: 50px;
+  width: 30%;
+}
+
+#form-details .people div{
+  padding-bottom: 25px;
+  display: flex;
+  
+}
+
+#form-details .people div img{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+#form-details .people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#form-details .people div p span {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+
 
 /* media querys */
 
@@ -554,11 +680,44 @@ footer .copyright{
     height: 45vh;
     margin-bottom: 25px;
   }
-  
+}
+
+/* contact */
+
+#contact-details{
+  flex-direction: column;
+}
+
+.section-p1 {
+	padding: 40px;
+}
+
+#form-details {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+#form-details form {
+	width: 55%;
+	
+
+#contact-details .details {
+	width: 40%;
+  padding-bottom: 25px;
+}
+
+#contact-details .details {
+  width: 80%;
 }
 
 
-@media (max-width: 477px){
+}
+
+
+
+
+@media (max-width: 500px){
 
   #header {
     padding: 10px 30px;
@@ -605,6 +764,47 @@ footer .copyright{
 #prodetails .single-pro-details {
   width: 100%;
 }
+
+/* contact */
+
+#contact-details{
+  flex-direction: column;
+}
+
+#contact-details .details {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contact-details .map {
+  width: 100%;
+  
+}
+
+#form-details {
+  margin: 10px;
+  padding: 30 px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#form-details form {
+  width: 95%;
+}
+
+#form-details .people {
+	margin-top: 30px;
+	width: 100%;
+
+}
+
+#form-details .people {
+	margin-top: 30px;
+	width: 100%;
+  
+}
+
+
 
 }
 

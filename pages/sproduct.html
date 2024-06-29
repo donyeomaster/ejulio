@@ -1,190 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <script
+      src="https://kit.fontawesome.com/40ac7e8c30.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tienda</title>
-        <script src="https://kit.fontawesome.com/40ac7e8c30.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
 
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="../img/logo.png" class="logo" alt="logo" /></a>
 
-    <body>
-        <section id="header">
-            <a href="#"><img src="../img/logo.png" class="logo" alt="logo"></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a class="active" href="./shop.html">Tienda</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+          <li id="lg-bag">
+            <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
 
-            <div>
-                <ul id="navbar">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a class="active" href="./shop.html">Tienda</a></li>
-                    <li><a href="./about.html">Nosotros</a></li>
-                    <li><a href="./contact.html">Contacto</a></li>
-                    <li id="lg-bag"><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-                </ul>
+      <div id="mobile">
+        <a href="./pages/cart.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="../img/products/f1.jpg" width="100%" id="MainImg" alt="" />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="../img/products/f1.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+
+          <div class="small-img-col">
+            <img
+              src="../img/products/f1-2.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+
+          <div class="small-img-col">
+            <img
+              src="../img/products/f1-3.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Home / Destacados</h6>
+        <h4>Auriculares Inalámbricos Tws</h4>
+        <h2>20.000 COP</h2>
+        <input type="number" value="1" />
+        <button class="normal">Añadir al carrito</button>
+        <h4>Detalles del producto</h4>
+        <span>
+          Compactos y confortables con Estuche de Carga - Control Táctil,
+          Batería de Larga Duración, Mini Auriculares In-Ear con Graves
+          Profundos. Verdaderos auriculares inalámbricos.
+        </span>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Recién llegados</h2>
+      <p>Gagets innovadores</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="../img/products/n1.jpg" alt="" />
+          <div class="des">
+            <span>audifonos</span>
+            <h5>n1</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
 
-            <div id="mobile">
-                <a href="./pages/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                <i id="bar" class="fas fa-outdent"></i>
+        <div class="pro">
+          <img src="../img/products/n2.jpg" alt="" />
+          <div class="des">
+            <span>enchufe wifi</span>
+            <h5>n2</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-        </section>
-            
-        <section id="prodetails" class="section-p1">
-            
-            <div class="single-pro-image">
-                <img src="../img/products/f1.jpg" width="100%" id="MainImg" alt="">
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
 
-                <div class="small-img-group">
-                    <div class="small-img-col">
-                        <img src="../img/products/f1.jpg" width="100%" class="small-img" alt="">
-                    </div>
-    
-                    <div class="small-img-col">
-                        <img src="../img/products/f1-2.jpg" width="100%" class="small-img" alt="">
-                    </div>
-    
-                    <div class="small-img-col">
-                        <img src="../img/products/f1-3.jpg" width="100%" class="small-img" alt="">
-                    </div>
-                </div>
+        <div class="pro">
+          <img src="../img/products/n3.jpg" alt="" />
+          <div class="des">
+            <span>micrófono</span>
+            <h5>n3</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
 
-            <div class="single-pro-details">
-                <h6> Home / Destacados</h6>
-                <h4>Auriculares Inalámbricos Tws</h4>
-                <h2>20.000 COP</h2>
-                <input type="number" value="1">
-                <button class="normal">Añadir al carrito</button>
-                <h4>Detalles del producto</h4>
-                <span>
-                    Compactos y confortables con Estuche de Carga - Control Táctil, Batería de Larga Duración, Mini Auriculares In-Ear con Graves Profundos. Verdaderos auriculares inalámbricos.
-                </span>
+        <div class="pro">
+          <img src="../img/products/n4.jpg" alt="" />
+          <div class="des">
+            <span>webcam</span>
+            <h5>n4</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-        </section>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
 
-        <section id="product1" class="section-p1">
-            <h2>Recién llegados</h2>
-            <p>Gagets innovadores</p>
-            <div class="pro-container">
-                <div class="pro">
-                    <img src="../img/products/n1.jpg" alt="">
-                    <div class="des">
-                       <span>audifonos</span> 
-                       <h5>n1</h5>
-                       <div class="star">
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                       </div>
-                       <h4>$78</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="../img/logo.png" alt="logo" />
+        <h4>Contacto</h4>
+        <p><strong>Correo:</strong>contacto@smart-apps.app</p>
+        <p>Bogotá, Colombia.</p>
 
-                <div class="pro">
-                    <img src="../img/products/n2.jpg" alt="">
-                    <div class="des">
-                       <span>enchufe wifi</span> 
-                       <h5>n2</h5>
-                       <div class="star">
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                       </div>
-                       <h4>$78</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
+        <div class="follow">
+          <h4>Siguenos</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>Acerca de Smart-apps</h4>
+        <a href="#">Sobre nosotros</a>
+        <a href="#">Información de entrega</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Contacto</a>
+      </div>
 
-                <div class="pro">
-                    <img src="../img/products/n3.jpg" alt="">
-                    <div class="des">
-                       <span>micrófono</span> 
-                       <h5>n3</h5>
-                       <div class="star">
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                       </div>
-                       <h4>$78</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
+      <div class="col install">
+        <h4>Métodos de pago</h4>
+        <img src="../img/pay/pay.png" alt="Métodos de Pago" />
+      </div>
 
-                <div class="pro">
-                    <img src="../img/products/n4.jpg" alt="">
-                    <div class="des">
-                       <span>webcam</span> 
-                       <h5>n4</h5>
-                       <div class="star">
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                            <i class=""fas fa-star></i>
-                       </div>
-                       <h4>$78</h4>
-                    </div>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
+      <div class="copyright">
+        <p>© 2024, Julio Peña - Smart-apps.app</p>
+      </div>
+    </footer>
 
-            </div>
+    <script>
+      const MainImg = document.getElementById("MainImg");
+      const smallimg = document.getElementsByClassName("small-img");
 
-        </section>
+      for (let i = 0; i < smallimg.length; i++) {
+        smallimg[i].onclick = function () {
+          MainImg.src = smallimg[i].src;
+        };
+      }
+    </script>
 
-        <footer class="section-p1">
-            <div class="col">
-                <img class="logo" src="../img/logo.png" alt="logo">
-                <h4>Contacto</h4>
-                <p> <strong>Dirección:</strong> Carrera 7F 153-45</p>
-                <p> Bogotá, Colombia.</p>
-                <p> <strong>Teléfono:</strong> 57 3163281786</p>
-                <div class="follow">
-                    <h4>Siguenos</h4>
-                    <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-pinterest-p"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Acerca de Smart-apps</h4>
-                <a href="#">Sobre nosotros</a>
-                <a href="#">Información de entrega</a>
-                <a href="#">Política de privacidad</a>
-                <a href="#">Términos y condiciones</a>
-                <a href="#">Contacto</a>
-            </div>
-
-            <div class="col install">
-                <h4>Métodos de pago</h4>
-                <img src="../img/pay/pay.png" alt="Métodos de Pago">
-            </div>
-
-            <div class="copyright">
-                <p>© 2024, Julio Peña - Smart-apps.app</p>
-            </div>
-
-        </footer>
-
-        
-
-        <script src="../js/script.js"></script>
-    </body>
-
+    <script src="../js/script.js"></script>
+  </body>
 </html>

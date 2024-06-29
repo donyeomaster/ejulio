@@ -5,18 +5,129 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto</title>
+        <title>Index Julio</title>
+        <script src="https://kit.fontawesome.com/40ac7e8c30.js" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 
     <body>
+        <section id="header">
+            <a href="#"><img src="../img/logo.png" class="logo" alt="logo"></a>
 
+            <div>
+                <ul id="navbar">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./shop.html">Tienda</a></li>
+                    <li><a class="active" href="./contact.html">Contacto</a></li>
+                    <li id="lg-bag"><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
 
-        <script src="script.js"></script>
+            <div id="mobile">
+                <a href="./pages/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+            
+        <section id="page-header">
+            
+            <h2>#Hablemos</h2>
+            
+            <p>Dejame un mensaje, estamos prestos a responderte!</p>
+            
+        </section>
 
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <span>Contacto</span>
+                <h2>Contactemos por los siguientes medios</h2>
+                <h3>Sede central</h3>
+                <div>
+                    <li>
+                        <i class="fa-solid fa-map"></i>
+                        <p>Bogotá, Colombia</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contacto@smart-apps.app</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Lunes a viernes de 2p.m. a 7p.m.</p>
+                    </li>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31809.712282627548!2d-74.04803840025657!3d4.7328464137009485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8f89ab82cb31%3A0x4ba9e15b2c982774!2zMTEwMTMxLCBVc2FxdcOpbiwgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1718986987287!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="form-details">
+            <form action="">
+                <span>DEJA TU MENSAJE</span>
+                <h2>Te escuchamos</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                <button class="normal">Enviar</button>
+            </form>
+
+            <div class="people">
+                <div>
+                    <img src="../img/people/1.png" alt="">
+                    <p><span>Julio Peña</span> Marketing Manager <br> contacto@smart-apps.app</p>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="../img/logo.png" alt="logo">
+                <h4>Contacto</h4>
+                <p> <strong>Correo:</strong>contacto@smart-apps.app</p>
+                <p> Bogotá, Colombia.</p>
+               
+                <div class="follow">
+                    <h4>Siguenos</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Acerca de Smart-apps</h4>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Información de entrega</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <div class="col install">
+                <h4>Métodos de pago</h4>
+                <img src="../img/pay/pay.png" alt="Métodos de Pago">
+            </div>
+
+            <div class="copyright">
+                <p>© 2024, Julio Peña - Smart-apps.app</p>
+            </div>
+
+        </footer>
+
+        
+
+        <script src="../js/script.js"></script>
     </body>
 
 </html>
